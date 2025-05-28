@@ -5,7 +5,7 @@ pool:
 name : Default
 
 steps :
--script : echo "Maven azure"
+-script : echo Maven azure
 displayName : 'Run script'
 
 -script : mvn clean install
