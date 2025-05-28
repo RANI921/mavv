@@ -1,0 +1,15 @@
+target:
+-master
+
+pool:
+name : Default
+
+steps :
+-script : echo "Maven azure"
+displayName : 'Run script'
+
+-script : mvn clean install
+displayName : 'Build with maven'
+
+-script : java -jar target/mavv-1.0-SNAPSHOT.jar
+displayName : 'Running jar'
