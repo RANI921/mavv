@@ -1,4 +1,4 @@
-target:
+trigger:
 -master
 
 pool:
